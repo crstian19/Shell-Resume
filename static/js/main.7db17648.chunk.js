@@ -23,10 +23,16 @@
           description: null,
         }],
         awards: [{
-          title: "Primer premio I Concurso de Ideas Tecnológicas por la Igualdad de Género`",
+          title: "Primer premio I Concurso de Ideas Tecnológicas por la Igualdad de Género",
           description: "N/A",
           awarder: "https://upct.es",
-          year: 2018
+          year: 2018 
+        },
+          {
+          title: "Traefik Ambassador",
+          description: "N/A",
+          awarder: "https://traefik.io/",
+          year: 2020 
         }],
         skills: [{
           name: "Work",
