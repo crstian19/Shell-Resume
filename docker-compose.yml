@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  shell-web:
+    image: shell-web
+    container_name: shell-web
+    restart: unless-stopped
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.shell-web.entryPoints=web-secure
+      - traefik.http.routers.shell-web.rule=Host(`shell.crstian.me`)
+      - traefik.http.routers.shell-web.tls.certresolver=default
+
+networks:
+  default:
+    name: shell-web-network
