@@ -18,6 +18,15 @@
           position: "Store Assistant",
           startMonth: 7,
           startYear: 2019,
+          endMonth: 4,
+          endYear: 2021,
+          description: null,
+        },
+        {
+          company: "Bemyvega",
+          position: "DevOps Engineer",
+          startMonth: 3,
+          startYear: 2021,
           endMonth: null,
           endYear: null,
           description: null,
@@ -33,6 +42,12 @@
           description: "N/A",
           awarder: "https://traefik.io/",
           year: 2020 
+        },
+        {
+          title: "Google Speaker",
+          description: "N/A",
+          awarder: "https://gdg.community.dev/events/details/google-gdg-cartagena-presents-historia-de-los-contenedores-desde-chroot-hasta-podman/",
+          year: 2021 
         }],
         skills: [{
           name: "Work",
