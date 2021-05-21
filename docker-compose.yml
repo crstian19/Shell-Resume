@@ -10,7 +10,7 @@ services:
       - traefik.http.routers.shell-web.entryPoints=web-secure
       - traefik.http.routers.shell-web.rule=Host(`shell.crstian.me`)
       - traefik.http.routers.shell-web.tls.certresolver=default
-
+      - com.centurylinklabs.watchtower.enable=false
 networks:
   default:
     name: shell-web-network
